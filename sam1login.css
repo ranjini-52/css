@@ -1,0 +1,57 @@
+body{
+    background: grey;
+}
+form{
+    background: white;
+    width:400px;
+    height:500px;
+    margin-top: 150px;
+    border-radius: 5px;
+}
+form h1{
+    padding-top: 20px;
+}
+#google{
+    border:1px solid black;
+    padding: 5px;
+    padding-left: 60px;
+    padding-right: 60px;
+    border-radius: 5px;
+    text-decoration: none;
+    color:grey;
+}
+#apple{
+    border: 1px solid black;
+    padding: 5px;
+    padding-left: 64px;
+    padding-right: 66px;
+    border-radius: 5px;
+    text-decoration: none;
+    color:grey;
+}
+hr{
+    width:250px;
+}
+form input{
+    padding: 5px;
+    margin-top: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 5px; 
+}
+button{
+    background-color: green;
+    color:white;
+    width:260px;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+#p2{
+    margin-top: 35px;
+}
+#a1{
+    color:green;
+    text-decoration: none;
+    font-size: 18px;
+}

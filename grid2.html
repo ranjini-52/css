@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Document</title>
+  <style>
+    #main{
+      height: 500px;
+      width:100%;
+      display: grid;
+      grid-template-areas:
+      "a a"
+      "b c"
+      "b d";
+      grid-template-columns: 500px ;
+      grid-template-rows: 100px 200px;
+      column-gap:50px 10px;
+
+      
+    }
+    main{
+      background-color: yellow;
+    }
+    #main>header{
+      grid-area: a;
+      background-color: green;
+    }
+    #main>nav{
+      grid-area: b;
+      background-color: red;
+    }
+    #main>section{
+      grid-area: c;
+      background-color: aqua;
+    }
+    #main>footer{
+      grid-area: d;
+      background-color: blanchedalmond;
+    }
+    
+  </style>
+</head>
+<body>
+  <div id="main">
+    <header></header>
+    <section></section>
+    <nav></nav>
+    <footer></footer>
+
+  </div>
+</body>
+</html>
